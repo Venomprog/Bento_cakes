@@ -39,7 +39,7 @@
     @media (max-width: 768px){
         margin-bottom: 20px;
         img{
-            max-width: 100%;
+            max-width: 80%;
         }
     }
 }
@@ -54,26 +54,51 @@
     img{
         width: 250px;
     }
+    @media (max-width: 768px){
+        img{
+            width: 150px;
+        }
+    }
 }
 .star-2{
     position: absolute;
-    top: 40%;
-    right: -2%;
+    top: 62%;
+    right: 0%;
     z-index: -1;
-    rotate: 100deg;
+    rotate: 110deg;
     img{
         width: 300px;
+    }
+    @media (max-width: 768px){
+        rotate: 150deg;
+        top: 62%;
+    right: 6%;
+        z-index: 2;
+        img{
+            width: 130px;
+        }
     }
 }
 .firework{
     position: absolute;
-    top: 10%;
+    top: 13%;
     left: 30%;
     z-index: 1;
+    @media (max-width: 768px){
+        top: 18%;
+    left: 45%;
+    }
 }
 .firework2{
     position: absolute;
-    top: 80%;
+    top: 61%;
     left: 55%;
     z-index: 1;
+    @media (max-width: 768px){
+        top: 81%;
+    left: 15%;
+        img{
+            width: 150px;
+        }
+    }
 }

@@ -1,7 +1,8 @@
 .section__for-course {
-    margin-top: 50px;
+    margin-top: 100px;
     text-align: center;
     padding-bottom: 50px;
+    position: relative;
 }
 .for-course__title {
     margin-bottom: 40px;
@@ -9,7 +10,7 @@
         font-family: "LighthausRegular";
         font-weight: 400;
         font-size: 47.4529px;
-        line-height: 174.4%;
+        line-height: 134.4%;
         color: #FF007A;
     }
 }
@@ -22,12 +23,22 @@
     
 }
 .for-course__col {
-    
+        /* Created with https://www.css-gradient.com */
+    background: #F9F5B1;
+    background: -webkit-linear-gradient(top left, #F9F5B1, #F4F39A);
+    background: -moz-linear-gradient(top left, #F9F5B1, #F4F39A);
+    background: linear-gradient(to bottom right, #F9F5B1, #F4F39A);
+    padding: 20px;
+    border-radius: 20px;
+    @media (max-width: 768px) {
+        margin-bottom: 20px;
+    }
 }
 .picture-and-text__block {
     display: flex;
     align-items: center;
     margin-bottom: 20px;
+    
 }
 .picture {
     margin-right: 15px;
@@ -48,5 +59,31 @@ color: #FF007A;
         font-weight: 400;
         font-size: 17.529px;
         line-height: 21px;
+    }
+}
+
+.decor-bon-bon{
+    position: absolute;
+    top: -5%;
+    left: 23%;
+    @media (max-width: 768px) {
+        top: 8%;
+            left: 12%;
+        img{
+            width: 70px;
+            
+        }
+    }
+}
+.decor-bon-bon2{
+    position: absolute;
+    top: -5%;
+    left: 67%;
+    @media (max-width: 768px) {
+        top: 8%;
+            left: 70%;
+        img{
+            width: 70px;
+        }
     }
 }

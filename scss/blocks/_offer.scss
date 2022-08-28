@@ -1,0 +1,107 @@
+.section__offer {
+    margin-top: 100px;
+    margin-bottom: 50px;
+    @media (max-width: 768px) {
+        margin-top: 10px;
+    }
+}
+
+.offer__content {
+}
+
+.offer__header {
+    text-align: center;
+    margin-bottom: 50px;
+    h2{
+        font-weight: 400;
+        font-size: 47.4529px;
+        line-height: 48px;
+        font-family: "LighthausRegular";
+
+/* identical to box height, or 83px */
+
+        color: #FF007A;
+    }
+}
+.offer__row {
+    display: flex;
+    justify-content: space-between;
+    @media (max-width: 768px) {
+        flex-wrap: wrap;
+    }
+}
+.offer__col {
+    height: 100%;
+    p{
+        margin-bottom: 10px;
+    }
+    max-width: 330px;
+    padding: 50px 10px;
+    text-align: center;
+    background-color: #ff007b33;
+    border-radius: 20px;
+    font-family: 'Montserrat', sans-serif;
+    span{
+        color: #FF007A;
+    }
+    span.white{
+        color: white;
+    }
+    span.black{
+        color: black;
+    }
+    @media (max-width: 768px) {
+        margin-bottom: 60px;
+    }
+    
+}
+.offer__text{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14.7115px;
+    line-height: 20px;
+}
+.offer__title {
+    text-align: center;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+.offer__price {
+    margin-top: 30px;
+    span{
+        font-weight: 500;
+        font-size: 34.9341px;
+        line-height: 43px;
+    }
+    del{
+        opacity: 0.7;
+        text-decoration-color: yellow;
+        font-size: 36px;
+    }
+    
+}
+.offer__btn{
+    margin-top: 40px;
+    a{
+        color: black;
+        text-decoration: none;
+        padding:20px 90px ;
+        transition: all 0.5s;
+        /* Created with https://www.css-gradient.com */
+        background: #F7E28C;
+        background: -webkit-linear-gradient(top left, #F7E28C, #F2D954);
+        background: -moz-linear-gradient(top left, #F7E28C, #F2D954);
+        background: linear-gradient(to bottom right, #F7E28C, #F2D954);
+        border-radius: 27px;
+        &:hover{
+            opacity: 0.7;
+            box-shadow: 0px 0px 30px 10px white;
+        }
+    }
+}
+.buy-btn {
+    
+}
