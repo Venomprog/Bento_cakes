@@ -4,11 +4,193 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <link rel="stylesheet" href="css/style.min.css">
     <title>Document</title>
 </head>
 <body>
-    <footer><h5></h5></footer>
-    <script src="js/main.js"></script>
+    <header  class="header">
+        <div class="header__container container">
+            <div class="header__body">
+                <div class="header__burger">
+                    <span></span>
+                </div>
+                <div class="header__menu">
+                    <ul class="header__list">
+                        <li>
+                            <a href="#about" class="header__link">Обо мне</a>
+                        </li>
+                        <li>
+                            <a href="#works" class="header__link">Мои работы</a>
+                        </li>
+                        <li>
+                            <a href="" class="header__link">Для кого курс</a>
+                        </li>
+                        <li>
+                            <a href="" class="header__link">Тарифы</a>
+                        </li>
+                        <li>
+                            <a href="" class="header__link">Контакты</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section  class="section__about-expert container-fluid">
+        <div class="about__content container">
+            <div  class="about__header">
+                <h1>Добро пожаловать <br>В кондитерскую <br><span>онлайн-школу <br>ЕЛЕНЫ ЧИОНОВОЙ</span>  </h1>
+            </div>
+            <div class="about__list">
+                <div class="list__item">
+                    <div class="list__arrow">
+                        <img src="images/Vector 6.png" alt="">
+                    </div>
+                    <div class="list__star">
+                        <img src="images/bouncy-pink-star 5.png" alt="">
+                    </div>
+                    <div class="list__text">
+                        <p>за год <span>основала бренд</span> с нуля и теперь<br>
+                            <span>востребованный</span> кондитер</p>
+                    </div>
+                </div>
+                <div class="list__item">
+                    <div class="list__arrow">
+                        <img src="images/Vector 6.png" alt="">
+                    </div>
+                    <div class="list__star">
+                        <img src="images/bouncy-pink-star 5.png" alt="">
+                    </div>
+                    <div class="list__text">
+                        <p>Работаю с <span>администрацией</span> своего района<br>
+                            Научила печь Бенто тортики уже<span>более 150 человек</span> </p>
+                    </div>
+                </div>
+                <div class="list__item">
+                    <div class="list__arrow">
+                        <img src="images/Vector 6.png" alt="">
+                    </div>
+                    <div class="list__star">
+                        <img src="images/bouncy-pink-star 5.png" alt="">
+                    </div>
+                    <div id="works" class="list__text">
+                        <p>Сделала за год
+                            <span>1200+</span> тортиков</p>
+                    </div>
+                </div>
+            </div>
+           
+        </div>
+        <div class="about__picture-block">
+            <img src="images/Elena2.png" alt="">
+            <div class="content">
+                <div class="content-border">
+                    <div class="title">Елена Чионова</div>
+                <div class="text">36 лет, живу в деревне<br>
+                    Хрипань Подмосковье</div>
+                </div>
+            </div>
+            <div class="img">
+                <img src="images/В ПНГ.png" alt="">
+            </div>
+        </div>
+        <div class="dop__star">
+            <img src="/images/bouncy-pink-star 5.png" alt="">
+        </div>
+        <div id="about" class="dop__supstar">
+            <img src="/images/bouncy-decorative-explosion 1.png" alt="">
+        </div>
+    </section>
+    <section  class="section__my-works container-fluid">
+        <div  class="my-works__content container">
+            <div  class="my-works__title">
+                <h2>Мои работы</h2>
+            </div>
+            <div class="works__row">
+                <div class="works__col">
+                    <img src="/images/bento1.png" alt="Бенто-тортик от Елены Чионовой">
+                </div>
+                <div class="works__col">
+                    <img src="/images/bento2.png" alt="Бенто-тортик от Елены Чионовой">
+                </div>
+                <div class="works__col">
+                    <img src="/images/bento3.png" alt="Бенто-тортик от Елены Чионовой">
+                </div>
+            </div>
+            <div class="works__row">
+                <div class="works__col">
+                    <img src="/images/bento4.png" alt="Бенто-тортик от Елены Чионовой">
+                </div>
+                <div class="works__col">
+                    <img src="/images/bento5.png" alt="Бенто-тортик от Елены Чионовой">
+                </div>
+                <div class="works__col">
+                    <img src="/images/bento6.png" alt="Бенто-тортик от Елены Чионовой">
+                </div>
+            </div>
+        </div>
+        <div class="star-1">
+            <img src="/images/bouncy-decorative-explosion 1.png" alt="">
+        </div>
+        <div class="star-2">
+            <img src="/images/bouncy-decorative-explosion 1.png" alt="">
+        </div>
+        <div class="firework">
+            <img src="/images/arabica-firework-1 1.png" alt="">
+        </div>
+        <div class="firework2">
+            <img src="/images/arabica-firework-1 1.png" alt="">
+        </div>
+    </section>
+    <section class="section__for-course container-fluid">
+        <div class="for-course__content container">
+            <div class="for-course__title">
+                <h2>ДЛЯ КОГО КУРС</h2>
+            </div>
+            <div class="for-course__row">
+                <div class="for-course__col">
+                    <div class="picture-and-text__block">
+                        <div class="picture">
+                            <img src="/images/mother (Traced).png" alt="">
+                        </div>
+                        <div class="text">
+                            <p>Мамочки в декрете </p>
+                        </div>
+                    </div>
+                    <div class="for-course__col-description">
+                        <p>Хотите зарабатывать в<br> творческой сфере у<br> себя дома</p>
+                    </div>
+                </div>
+                <div class="for-course__col">
+                    <div class="picture-and-text__block">
+                        <div class="picture">
+                            <img src="/images/woman (Traced).png" alt="">
+                        </div>
+                        <div class="text">
+                            <p>Домохозяйки </p>
+                        </div>
+                    </div>
+                    <div class="for-course__col-description">
+                        <p>Хотите обрести финансовую<br> свободу и ни в чём себе не<br> отказывать</p>
+                    </div>
+                </div>
+                <div class="for-course__col">
+                    <div class="picture-and-text__block">
+                        <div class="picture">
+                            <img src="/images/confectioner (Traced).png" alt="">
+                        </div>
+                        <div class="text">
+                            <p>Начинающие и<br> практикующие<br> кондитеры</p>
+                        </div>
+                    </div>
+                    <div class="for-course__col-description">
+                        <p>Хотите развивать<br> свой блог и личный бренд</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="js/header.js"></script>
 </body>
 </html>

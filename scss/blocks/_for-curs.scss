@@ -1,0 +1,52 @@
+.section__for-course {
+    margin-top: 50px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+.for-course__title {
+    margin-bottom: 40px;
+    h2{
+        font-family: "LighthausRegular";
+        font-weight: 400;
+        font-size: 47.4529px;
+        line-height: 174.4%;
+        color: #FF007A;
+    }
+}
+.for-course__row {
+    display: flex;
+    justify-content: space-around;
+    @media (max-width: 768px) {
+        flex-wrap: wrap;
+    }
+    
+}
+.for-course__col {
+    
+}
+.picture-and-text__block {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.picture {
+    margin-right: 15px;
+}
+.text {
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+
+color: #FF007A;
+}
+.for-course__col-description {
+    p{
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 17.529px;
+        line-height: 21px;
+    }
+}
